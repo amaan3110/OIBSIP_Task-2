@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    background-color: black;
+    color: white;
+    height: 150px;
+    font-weight: 300;
+}
+
+.sec1 h2,
+h1 {
+    padding-top: 7px;
+}
+
+.sec1 i {
+    font-size: 2rem;
+    padding-top: 13px;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 65%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.sec2 p {
+    font-size: 1.5rem;
+    margin-top: 110px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: auto;
+    color: white;
+}
+
+.bio {
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.bio p {
+    font-size: 17px;
+    font-family: poppins;
+}
+
+.bio h4 {
+    font-family: poppins;
+    font-weight: 100;
+}
+
+.bio h4 span {
+    color: skyblue;
+}
